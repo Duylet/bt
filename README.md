@@ -1,20 +1,21 @@
 # Bài tập kiểm tra Python – Đề 01 và Đề 02
 
-Lời giải được chia theo 3 bộ đề trong tài liệu gốc: CBPYTHON, NCPYTHON và NDPYTHON.
+Lời giải được chia theo 3 bộ đề trong ZIP: **CBPYTHON**, **NCPYTHON** và **NDPYTHON**. Mỗi bộ có `De01/solutions.py` và `De02/solutions.py`.
 
-## Cấu trúc
-- `CBPYTHON/De01/` và `CBPYTHON/De02/`: 10 bài nhỏ mỗi đề (`Cau1a.py` ... `Cau5b.py`).
-- `NCPYTHON/De01/` và `NCPYTHON/De02/`: 6 bài nhỏ mỗi đề.
-- `NDPYTHON/De01/` và `NDPYTHON/De02/`: 6 bài nhỏ mỗi đề.
-- `*/Tests/`: hai bộ test gốc được cung cấp trong ZIP.
-
-## Chạy
-Mở thư mục dự án trong VS Code, mở Terminal và chạy một file, ví dụ:
+## Chạy trong VS Code
+Mở thư mục repository, mở Terminal và chạy một đề:
 
 ```powershell
-python CBPYTHON/De01/Cau1a.py
+python CBPYTHON/De01/solutions.py
+python CBPYTHON/De02/solutions.py
+python NCPYTHON/De01/solutions.py
+python NCPYTHON/De02/solutions.py
+python NDPYTHON/De01/solutions.py
+python NDPYTHON/De02/solutions.py
 ```
 
-Các bài có yêu cầu nhập dữ liệu sẽ đọc bằng `input()`. Các bài cho sẵn dữ liệu trong đề sẽ in kết quả trực tiếp. Mỗi câu được tách thành một file để dễ học và kiểm tra.
+- Với **CBPYTHON**, chương trình lần lượt chạy từng câu; nhập dữ liệu khi được nhắc.
+- Với **NCPYTHON**, các câu dùng dữ liệu mẫu đúng theo đề và in kết quả.
+- Với **NDPYTHON**, chương trình in các câu dùng dữ liệu cố định và yêu cầu nhập chuỗi số ở các câu có input.
 
-**Lưu ý:** Một số file test trong ZIP có chú thích hoặc dữ liệu mẫu không đồng nhất với nội dung PDF. Lời giải được triển khai theo nội dung đề PDF tương ứng.
+Mỗi đề được tách riêng, có chú thích và dùng Python chuẩn, không cần cài thư viện ngoài.
